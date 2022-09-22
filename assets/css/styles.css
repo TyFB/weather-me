@@ -1,0 +1,37 @@
+.banner {
+    text-align: center;
+    background-color: transparent;
+    background-image: url("../images/clouds.jpg");
+    border-radius: 0;
+    border-bottom: 5px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: relative;
+    padding: 20px;
+}
+main {
+    margin: 20px auto;
+    width: 94%;
+    border-bottom: 5px solid black;
+    padding: 10px;
+}
+.btn {
+    padding: 6px 5px;
+    width: 50%;
+    display: block;
+    border-radius: 5px;
+    background-color: aquamarine;
+    box-shadow: 3px 4px grey;
+}
+.btn:hover {
+    color: white;
+    background-color: blueviolet;
+    box-shadow: 2px 3px black;
+}
+.form-input {
+    padding: 6px 5px;
+    width: 50%;
+    display: block;
+    border-radius: 10px
+}
