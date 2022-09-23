@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Weather Forcast</title>
+</head>
+
+<body>
+    <header class="banner">
+        <h1 class="display-3">Weather Dashboard</h1>
+    </header>
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="box">
+                <h3 class="box-head">Search for a City:</h3>
+                <form id="user-input" class="location">
+                    <input placeholder="City Name" id="cityname" type="text" class="form-input"/>
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="w-100">
+        <div class="today"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

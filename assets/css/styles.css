@@ -13,6 +13,9 @@
 main {
     margin: 20px auto;
     width: 94%;
+    padding: 10px;
+}
+.box {
     border-bottom: 5px solid black;
     padding: 10px;
 }
