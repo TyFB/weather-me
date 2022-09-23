@@ -11,6 +11,8 @@
     padding: 20px;
 }
 main {
+    display: flex;
+    justify-content: space-between;
     margin: 20px auto;
     width: 94%;
     padding: 10px;
@@ -37,4 +39,9 @@ main {
     width: 50%;
     display: block;
     border-radius: 10px
+}
+.today {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
 }
